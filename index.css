@@ -93,7 +93,7 @@ h6, h5 {
   background: #92b8e4;
   height: 435px;
   margin: 20px;
-  width: 350px;
+  width: 330px;
 }
 
 .goals-section h1{
@@ -186,7 +186,15 @@ h6, h5 {
 }
 
 
+@media only screen and (max-width: 560px) {
+  header {
+    font-size: 40px;
+  }
 
+  .fa-bars {
+    margin: 10px;
+  }
+}
 
 
 
